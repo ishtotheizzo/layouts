@@ -17,7 +17,10 @@ const options = {
     ]
   };
 
-  function Charts() {
-    <div>    <HighchartsReact highcharts={Highcharts} options={options} />
-    </div>
+function Charts() {
+    return(<div>    <HighchartsReact highcharts={Highcharts} options={options} />
+    </div>)
   }
+
+
+  export default Charts; 
